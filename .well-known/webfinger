@@ -1,0 +1,23 @@
+{
+  "subject": "acct:k@arkenous.me",
+  "aliases": [
+    "https://arkenous.me/@k",
+    "https://arkenous.me/users/k"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://arkenous.me/@k"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://arkenous.me/users/k"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://arkenous.me/authorize_interaction?uri={uri}"
+    }
+  ]
+}
