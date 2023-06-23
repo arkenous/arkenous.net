@@ -1,23 +1,23 @@
 {
-  "subject": "acct:k@arkenous.me",
+  "subject": "acct:k@arkenous.net",
   "aliases": [
-    "https://arkenous.me/@k",
-    "https://arkenous.me/users/k"
+    "https://mastodon.arkenous.net/@k",
+    "https://mastodon.arkenous.net/users/k"
   ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
-      "href": "https://arkenous.me/@k"
+      "href": "https://mastodon.arkenous.net/@k"
     },
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://arkenous.me/users/k"
+      "href": "https://mastodon.arkenous.net/users/k"
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
-      "template": "https://arkenous.me/authorize_interaction?uri={uri}"
+      "template": "https://mastodon.arkenous.net/authorize_interaction?uri={uri}"
     }
   ]
 }
